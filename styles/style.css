@@ -382,6 +382,7 @@ a:visited {
 }
 
 .header {
+  margin-top: 21px;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -581,10 +582,10 @@ a:visited {
   height: 24px;
 }
 .contacts__logo--vk {
-  background-image: url(/images/vk_logo.svg);
+  background-image: url(images/vk_logo.svg);
 }
 .contacts__logo--tg {
-  background-image: url(/images/tg_logo.svg);
+  background-image: url(images/tg_logo.svg);
 }
 .contacts__article {
   margin-bottom: 12px;
@@ -736,14 +737,14 @@ a:visited {
   display: inline-block;
   width: 104px;
   height: 39px;
-  background-image: url(/images/rss_logo.svg);
+  background-image: url(../images/rss_logo.svg);
 }
 
 .logo__git {
   display: inline-block;
   width: 25px;
   height: 25px;
-  background-image: url(/images/github_logo.svg);
+  background-image: url(../images/github_logo.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 25px 25px;
