@@ -1,0 +1,26 @@
+
+.skills{
+    max-width: 400px;
+}
+.skills__article{
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+
+.skills__item{
+    max-width: 400px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    .stars{
+        padding-left: 25px;
+    }
+    @include media-mobile-big{
+        flex-direction: column;
+        max-width: 350px;
+        .stars{
+            padding-left: 0px;
+        }
+    }
+}

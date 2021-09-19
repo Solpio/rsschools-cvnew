@@ -1,0 +1,31 @@
+.main{
+    margin-top: 69px;
+    &__logo{
+        margin: auto;
+        width: 793px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .logo__img{
+            width: 262px;
+            height: 262px;
+        }
+
+        @include media-mobile-big{
+            flex-direction: column;
+            width: 0;
+            .logo__img{
+                margin-top: 40px;
+                width: 200px;
+                height: 200px;
+            }
+        }
+        
+        @include media-mobile-small{
+            .logo__img{
+                width: 162px;
+                height: 162px;
+            }
+        }
+    }
+}

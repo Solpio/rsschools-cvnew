@@ -1,0 +1,31 @@
+.education {
+    text-align: center;
+    width: 582px;
+    &__container{
+        width: 582px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    &__text{
+        margin: 0;
+    }
+    @include media-mobile-big{
+        width: 300px;
+        text-align: left;
+        &__container{
+            width: 300px;
+        }
+    }
+    @include media-mobile-small{
+        width: 200px;
+        &__container{
+            width: 200px;
+        }
+    }
+}
+
+.stripe {
+    height: 12px;
+    width: 1px;
+}

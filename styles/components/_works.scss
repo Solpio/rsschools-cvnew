@@ -1,0 +1,36 @@
+.works {
+    &__table {
+        list-style: none;
+    }
+    &__item {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 68px;
+        @include media-mobile-big{
+            flex-direction: column;
+        }
+    }
+
+    &__img{
+        width: 490px;
+        height: 223px;
+        transition: 0.3s;
+        &:hover{
+            filter: blur(2px);
+            transition: 0.3s;
+        }
+        @include media-tablet{
+            width: 100%;
+            height: 100%;
+        }
+    }
+    &__link{
+        order: 1;
+        &--reversed{
+            order: -1;
+            @include media-mobile-big{
+                order: 1;
+            }
+        }
+    }
+}

@@ -1,0 +1,9 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-weight: 100;
+    @include media-mobile-big{
+        justify-content: space-between;
+    }
+}

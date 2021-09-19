@@ -1,0 +1,6 @@
+.section__article{
+    margin-left: 34px;
+    @include media-mobile-big{
+        margin-left: 0;
+    }
+}

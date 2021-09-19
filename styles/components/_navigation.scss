@@ -1,0 +1,25 @@
+.navigation{
+    &_table{
+        display: flex;
+        list-style: none;
+        &__item{
+            margin-left: 10px;
+            a{
+                color: $color-links;
+                text-decoration: none;
+                user-select: none;
+                transition: 0.3s;
+                &:hover{
+                    color: $color-links-active;
+                    transition: 0.3s;
+                }
+                &:active{
+                    color: $color-links-active;
+                }
+            }
+        }
+    }
+    @include media-mobile-big{
+        display: none;
+    }
+}

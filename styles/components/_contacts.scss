@@ -1,0 +1,24 @@
+.contacts{
+    &__logo{
+        display: inline-block;
+        background-repeat: no-repeat;
+        background-size: 24px 24px;
+        width: 24px;
+        height: 24px;
+        &--vk{
+        background-image: url(/images/vk_logo.svg);
+        }
+        &--tg{
+        background-image: url(/images/tg_logo.svg);
+        }
+    }
+
+    &__article{
+        margin-bottom: 12px;
+    }
+
+    &__table{
+        color: $color-primary;
+        list-style: none;
+    }
+}

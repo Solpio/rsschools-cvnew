@@ -1,0 +1,8 @@
+.star{
+    width: 41px;
+    height: 41px;
+    @include media-mobile-big{
+        width: 31px;
+        height: 31px;
+    }
+}

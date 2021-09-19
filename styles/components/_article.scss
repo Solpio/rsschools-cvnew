@@ -1,0 +1,26 @@
+.article {
+    width: 337px;
+    text-align: center;
+    p {
+        font-weight: 100;
+        margin: 0;
+    }
+
+    @include media-mobile-small{
+        width: 167px;
+    }
+
+}
+
+.greetings{
+    font-size: 3.4rem;
+    color: $color-secondary;
+    &__left {
+        display: flex;
+    }
+
+    &__right {
+        display: flex;
+        justify-content: flex-end;
+    }
+}

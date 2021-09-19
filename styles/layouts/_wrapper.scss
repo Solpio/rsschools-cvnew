@@ -1,0 +1,10 @@
+.wrapper{
+    max-width: $content-width;
+    margin: auto;
+    border: 1px $color-border solid;
+    border-radius: 20px;
+    background-color: $color-wrapper;
+    @include media-mobile-big{
+        padding: 0 30px;
+    }
+}

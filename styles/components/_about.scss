@@ -1,0 +1,16 @@
+.about{
+    &__article{
+        color: $color-secondary;
+        margin-left: 34px;
+        @include media-mobile-big{
+            margin-left: 14px;
+        }
+    }
+
+    &__text{
+        margin-left: 74px;
+        @include media-mobile-big{
+            margin-left: 0;
+        }
+    }
+}

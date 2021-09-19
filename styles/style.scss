@@ -1,0 +1,31 @@
+@import "abstract/constant";
+@import "abstract/placeholders";
+@import "abstract/mixins";
+
+@import "vendors/normalaize";
+
+@import "base/base";
+
+
+@import "layouts/header";
+@import "layouts/wrapper";
+@import "layouts/main";
+@import "layouts/footer";
+
+@import "components/section";
+@import "components/navigation.scss";
+@import "components/logo";
+@import "components/social_links";
+@import "components/article";
+@import "components/about";
+@import "components/skills";
+@import "components/contacts";
+@import "components/education";
+@import "components/information";
+@import "components/code";
+@import "components/works";
+@import "components/video";
+@import "components/achivements";
+@import "components/navigation_bottom";
+@import "components/hamburger";
+@import "components/star";
