@@ -737,7 +737,13 @@ a:visited {
   display: inline-block;
   width: 104px;
   height: 39px;
-  background-image: url(../images/rss_logo.svg);
+  background-image: url("../images/rss_logo.svg");
+}
+@media (max-width: 360px) {
+  .nav__rs {
+    width: 52px;
+    height: 18px;
+  }
 }
 
 .logo__git {

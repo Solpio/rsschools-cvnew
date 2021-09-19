@@ -2,7 +2,11 @@
     display: inline-block;
     width: 104px;
     height: 39px;
-    background-image: url(../images/rss_logo.svg);  
+    background-image: url("../images/rss_logo.svg");
+    @include media-mobile-small{
+        width: 52px;
+        height: 18px;
+    }
 }
 
 .logo__git{
