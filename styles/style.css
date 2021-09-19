@@ -582,10 +582,10 @@ a:visited {
   height: 24px;
 }
 .contacts__logo--vk {
-  background-image: url(images/vk_logo.svg);
+  background-image: url(../images/vk_logo.svg);
 }
 .contacts__logo--tg {
-  background-image: url(images/tg_logo.svg);
+  background-image: url(../images/tg_logo.svg);
 }
 .contacts__article {
   margin-bottom: 12px;
