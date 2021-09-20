@@ -17,17 +17,20 @@
         @extend %hamburger-line;
         top: calc(50% - 1.5px);
         left: 0;
+        transition-duration: all 0.3ms;
 
         &:before {
             @extend %hamburger-line;
             top: -8px;
             left: 0;
+            transition-duration: all 0.3ms;
         }
     
         &:after {
             @extend %hamburger-line;
             top: 8px;
             left: 0;
+            transition-duration: all 0.3ms;
         }
     }
 
@@ -37,16 +40,20 @@
 }
 
 #menu__toggle {
+    display: none;
     opacity: 0;
     width: 31px;
     height: 31px;
     &:checked ~ label > span {
+        transition-duration: all 0.3ms;
         transform: rotate(45deg);
         &:before{
+            transition-duration: all 0.3ms;
             top: 0;
             transform: rotate(0);
          }
          &:after{
+            transition-duration: all 0.3ms;
              top: 0;
              transform: rotate(90deg);
           }
@@ -88,7 +95,7 @@
     display: block;
     padding: 12px 24px;
     color: #333;
-    font-family: 'Rokkit', sans-serif;
+    font-family: 'Rokkitt', sans-serif;
     font-size: 20px;
     font-weight: 600;
     text-decoration: none;
@@ -102,3 +109,14 @@
     left: 0;
   }
 
+.menu__btn > span,
+.menu__btn > span::before,
+.menu__btn > span::after {
+  transition-duration: .25s;
+}
+.menu__box {
+  transition-duration: .25s;
+}
+.menu__item {
+  transition-duration: .25s;
+}

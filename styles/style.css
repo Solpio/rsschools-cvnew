@@ -776,14 +776,17 @@ a:visited {
 .hamburger__line {
   top: calc(50% - 1.5px);
   left: 0;
+  transition-duration: all 0.3ms;
 }
 .hamburger__line:before {
   top: -8px;
   left: 0;
+  transition-duration: all 0.3ms;
 }
 .hamburger__line:after {
   top: 8px;
   left: 0;
+  transition-duration: all 0.3ms;
 }
 @media (max-width: 820px) {
   .hamburger {
@@ -792,18 +795,22 @@ a:visited {
 }
 
 #menu__toggle {
+  display: none;
   opacity: 0;
   width: 31px;
   height: 31px;
 }
 #menu__toggle:checked ~ label > span {
+  transition-duration: all 0.3ms;
   transform: rotate(45deg);
 }
 #menu__toggle:checked ~ label > span:before {
+  transition-duration: all 0.3ms;
   top: 0;
   transform: rotate(0);
 }
 #menu__toggle:checked ~ label > span:after {
+  transition-duration: all 0.3ms;
   top: 0;
   transform: rotate(90deg);
 }
@@ -844,7 +851,7 @@ a:visited {
   display: block;
   padding: 12px 24px;
   color: #333;
-  font-family: "Rokkit", sans-serif;
+  font-family: "Rokkitt", sans-serif;
   font-size: 20px;
   font-weight: 600;
   text-decoration: none;
@@ -857,6 +864,20 @@ a:visited {
 #menu__toggle:checked ~ .menu__box {
   visibility: visible;
   left: 0;
+}
+
+.menu__btn > span,
+.menu__btn > span::before,
+.menu__btn > span::after {
+  transition-duration: 0.25s;
+}
+
+.menu__box {
+  transition-duration: 0.25s;
+}
+
+.menu__item {
+  transition-duration: 0.25s;
 }
 
 .star {
