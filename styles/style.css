@@ -729,8 +729,13 @@ a:visited {
 }
 @media (max-width: 1192px) {
   .achivements__img {
-    width: 70%;
-    height: 70%;
+    width: 80%;
+    height: 80%;
+  }
+}
+@media (max-width: 1192px) {
+  .achivements__table {
+    margin-left: 0;
   }
 }
 

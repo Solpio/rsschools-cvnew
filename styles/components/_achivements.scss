@@ -13,8 +13,14 @@
             transition: 0.3s;
         }
         @include media-tablet{
-            width: 70%;
-            height: 70%;
+            width: 80%;
+            height: 80%;
+        }
+    }
+
+    @include media-tablet{
+        &__table{
+            margin-left: 0;
         }
     }
 }
